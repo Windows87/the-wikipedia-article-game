@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <title>The Wikipedia Article Game</title>
+	  <link rel="shortcut icon" href="img/favicon.ico" />
+	  <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/loader.css">
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, shrink-to-fit=no">
+	  <meta charset="utf-8">
+
+	  <meta name="keywords" content="wikipedia, game"/>
+    <meta itemprop="name" content="The Wikipedia Article Game">
+	  <meta name="description" content="Wikipedia game that you need hit which is most viewed by its photos and names"/>
+	  <meta name="language" content="EN">
+	  <meta name="author" content="Yuri Faria, yuri.yurifaria@gmail.com">
+	  <meta name="url" content="https://windows87.github.io/the-wikipedia-article-game">
+
+  	<meta name="og:title" content="The Wikipedia Article Game"/>
+	  <meta name="og:url" content="https://windows87.github.io/the-wikipedia-article-game"/>
+	  <meta name="og:site_name" content="The Wikipedia Article Game"/>
+  	<meta name="og:image" content="img/image.png"/>
+  	<meta name="og:description" content="Wikipedia game that you need hit which is most viewed by its photos and names"/>
+	  <meta name="og:email" content="yuri.yurifaria@gmail.com"/>
+  </head>
+
+  <body>
+  	<div class="main-page">
+  	  <div class="dark-background">
+  	  	<a href="https://github.com/Windows87/the-wikipedia-article-game">
+  	   	  <img class="github-logo" src="img/github-logo.png" />
+  	    </a>
+  	    <h1>
+  	      <img src="img/logo.png" />
+  	    </h1>
+
+  	    <h2>
+  	      How much you can hit which Wikipedia article is most viewed just by its photos and names?
+  	    </h2>
+  	    <button onclick="start()">Let's Play it!</button>
+  	    <div class="credits">
+  	      <a href="https://windows87.github.io/">Made by Yuri Faria</a>
+  	    </div>
+  	  </div>
+  	</div>
+
+  	<div class="game">
+  	  <div class="image" id="image-1">
+  	    <div class="dark-background">
+  	      <span class="name" id="image-1-name"></span>
+  	      <span class="views" id="image-1-views"></span>
+  	    </div>
+  	  </div>
+  	
+  	<div class="vs">
+  	  <span>VS</span>
+    </div>
+
+  	  <div class="image" id="image-2">
+  	    <div class="dark-background">
+  	      <span class="name" id="image-2-name"></span>
+  	      <span class="views" id="image-2-views"></span>
+  	    </div>
+  	  </div>
+    </div>
+
+    <div class="game-over">
+      <span class="game-over-title">Game Over!</span>
+      
+      <span class="game-over-highscore">High Score: 36</span>
+      <span class="game-over-score">Score: 33</span>
+      
+      <button onclick="goToMainPage()">Main Page</button>
+      <button onclick="tryAgain()">Try Again</button>
+    </div>
+
+  	<script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
