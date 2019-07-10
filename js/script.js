@@ -126,7 +126,7 @@ function setError() {
   vsElement.style['cursor'] = 'pointer';
   
   vsElement.onclick = () => {
-    vsElement.style['cursor'] = 'none';
+    vsElement.style['cursor'] = 'default';
     newRound();
   };
 }
